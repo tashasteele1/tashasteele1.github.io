@@ -1,9 +1,26 @@
-img {
-    width: 200px;
+@keyframes bg-change {
+    0%{
+        background-color: #A2999E;}
+    50% {
+        background-color: #ceecff;
+    }
+    100%{
+        background-color: #ba4c4c;
+    }
 }
 
+
 body {
-    text-align: center;
     font-family: 'Abel', sans-serif;
-    font-size: 20px;
+    font-size: 5vw;
+    background-image: url("http://68.media.tumblr.com/c42ce0cd442f64d02a5404dcf261e7ec/tumblr_n3gxmtg9fz1txp8nwo1_500.gif");
+    color: yellow;
+}
+
+p{
+    text-align:center;
+}
+
+img{
+    width: 45vw;
 }
