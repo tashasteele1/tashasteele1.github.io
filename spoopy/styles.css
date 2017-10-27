@@ -1,0 +1,38 @@
+@keyframes rain {
+    from {
+        margin-top: 0px;
+    }
+    to{
+        margin-top: 80vh;
+    }
+}
+
+body{
+    background-image: url(https://i.giphy.com/media/ZZUmIxE3CWcxy/giphy.webp);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.whatever {
+    bottom: 0;
+    position: absolute;
+}
+
+.pumpkin {
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 30px;
+    margin-bottom: 20px
+}
+
+.candycorn {
+    width: 50px;
+    animation-name: rain;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+    
+
+    
